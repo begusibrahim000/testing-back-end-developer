@@ -30,13 +30,13 @@ int main()
             }
         }
         
-        if(vertikal_isi==0){
+        if(vertikal_isi == 0){
             vertikal_isi = 1;
         }else{
             vertikal_isi = 0;
-            if(vertikal_awal==0){
+            if(vertikal_awal == 0){
                 vertikal_awal = 1;
-            }else if(vertikal_awal==1){
+            }else if(vertikal_awal == 1){
                 vertikal_awal = 0;
             }
         }
